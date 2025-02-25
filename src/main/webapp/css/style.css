@@ -1,0 +1,83 @@
+
+footer {
+  background-image: url("../images/Untitled-2.jpg");
+  display: block;
+  text-align: center;
+  padding: 3px;
+  background-color:#3498db;
+  color: white;
+  margin-top: 10px;
+  width: 100%;
+}
+
+body{      
+    background-color:whitesmoke; 
+    font-family:Arial;
+   
+}
+
+.image {
+  background-image: url("../img/Header.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 150px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.imge {
+  background-image: url("../img/Untitled-2.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 60px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.form{
+    margin-top: 50px;
+    border: 2px solid powderblue;
+    width: 40%;
+    border: azure;
+    padding: 15px;
+}
+
+.menu{
+    
+    background-color: #008000;
+    height: 48px;
+}
+
+
+
+li {
+   
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: #228B22;
+}
+
+.user{
+display: none; 
+margin-right: 25px; 
+color: white;
+width: 150px;
+height: auto;
+background-color: white;
+position: relative;
+z-index: 1;
+
+}
+
+
