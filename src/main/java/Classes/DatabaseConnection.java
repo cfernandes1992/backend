@@ -17,14 +17,23 @@ public class DatabaseConnection {
         throws SQLException, ClassNotFoundException 
     { 
 
-        // Initialize all the information regarding 
+       /* // Initialize all the information regarding 
         // Database Connection 
         String dbDriver = "com.mysql.jdbc.Driver"; 
         String dbURL = "jdbc:mysql://localhost:3306/"; 
         // Database name to access 
         String dbName = "vacation"; 
         String dbUsername = "carlos"; 
-        String dbPassword = "barral206"; 
+        String dbPassword = "barral206"; */
+        
+         String dbDriver = "com.mysql.jdbc.Driver"; 
+        //String dbURL = "jdbc:mysql://localhost:3306/";
+        String dbURL = "mysql://root:OzigdBviNqDNWcEEkJgoHhZDDicFPoiu@mysql-2494ec8a.railway.internal:3306/railway";
+        // Database name to access 
+        String dbName = "railway"; 
+        String dbUsername = "root"; 
+        String dbPassword = "OzigdBviNqDNWcEEkJgoHhZDDicFPoiu";
+        
   
         Class.forName(dbDriver); 
         java.sql.Connection con =  DriverManager.getConnection(dbURL+dbName,dbUsername,dbPassword); 
