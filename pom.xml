@@ -47,8 +47,23 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
-                <version>3.3.2</version>
+                <version>3.3.1</version>
             </plugin>
+            
+                 <plugin>
+      <!-- Build an executable JAR -->
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-jar-plugin</artifactId>
+      <version>3.3.0</version>
+      <configuration>
+        <archive>
+          <manifest>
+            <mainClass>com.mycompany.vacation.resources</mainClass>
+          </manifest>
+        </archive>
+      </configuration>
+    </plugin>
+     
         </plugins>
     </build>
 </project>
