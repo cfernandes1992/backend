@@ -4,7 +4,7 @@
  */
 package Classes;
 
-import jakarta.jms.Connection;
+
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
@@ -28,7 +28,7 @@ public class DatabaseConnection {
         
          String dbDriver = "com.mysql.jdbc.Driver"; 
         //String dbURL = "jdbc:mysql://localhost:3306/";
-        String dbURL = "mysql://root:OzigdBviNqDNWcEEkJgoHhZDDicFPoiu@mysql-2494ec8a.railway.internal:3306/railway";
+        String dbURL = "mysql://root:OzigdBviNqDNWcEEkJgoHhZDDicFPoiu@tramway.proxy.rlwy.net:36688/railway";
         // Database name to access 
         String dbName = "railway"; 
         String dbUsername = "root"; 
